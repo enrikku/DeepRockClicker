@@ -1,16 +1,15 @@
 {
   "files": {
-    "main.css": "/DeepRockClicker/static/css/main.f855e6bc.css",
-    "main.js": "/DeepRockClicker/static/js/main.aafe4a98.js",
-    "static/js/787.a07edaa3.chunk.js": "/DeepRockClicker/static/js/787.a07edaa3.chunk.js",
+    "main.css": "/DeepRockClicker/static/css/main.2be8ebff.css",
+    "main.js": "/DeepRockClicker/static/js/main.0018c9d0.js",
+    "static/media/Deep_Rock_Galactic_Logo.webp": "/DeepRockClicker/static/media/Deep_Rock_Galactic_Logo.1ee3789d429d72c0e62e.webp",
     "static/media/logo.svg": "/DeepRockClicker/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/DeepRockClicker/index.html",
-    "main.f855e6bc.css.map": "/DeepRockClicker/static/css/main.f855e6bc.css.map",
-    "main.aafe4a98.js.map": "/DeepRockClicker/static/js/main.aafe4a98.js.map",
-    "787.a07edaa3.chunk.js.map": "/DeepRockClicker/static/js/787.a07edaa3.chunk.js.map"
+    "main.2be8ebff.css.map": "/DeepRockClicker/static/css/main.2be8ebff.css.map",
+    "main.0018c9d0.js.map": "/DeepRockClicker/static/js/main.0018c9d0.js.map"
   },
   "entrypoints": [
-    "static/css/main.f855e6bc.css",
-    "static/js/main.aafe4a98.js"
+    "static/css/main.2be8ebff.css",
+    "static/js/main.0018c9d0.js"
   ]
 }
