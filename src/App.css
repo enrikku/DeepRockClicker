@@ -1,38 +1,110 @@
-.App {
-  text-align: center;
+*{
+  margin: 0px;
+  padding: 0px;
+  user-select: none;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
+@keyframes logoOW-spin {
   from {
     transform: rotate(0deg);
   }
   to {
+    transform: rotate(45  deg);
+  }
+}
+
+main{
+  display: flex;
+}
+
+.containerMejoras{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: red;
+  width: 70vw;
+}
+
+ul {
+  list-style-type: none; 
+  padding: 0; 
+  margin: 0; 
+}
+
+li {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin: 0;
+  padding: 0; 
+  text-decoration: none; 
+  color: inherit; 
+}
+
+li:hover{
+  background-color: black;
+  color: white;
+  opacity: 0.6;
+  transition: 1s;
+}
+
+.mejora{
+  width: 70vw;
+  border: 1px solid black;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.conatainerLogoDeepRock{
+  display: flex;
+  flex-direction: column;
+  
+  width: 30vw;
+  height: 100vh;
+  border: 1px solid black;
+  background-color: aqua;
+}
+
+.centered-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.divPuntos{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  margin-top: 20px;
+  border: 1px solid black;
+  width: 30vw;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
     transform: rotate(360deg);
   }
+}
+
+.centered-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Esto asegura que el div ocupe toda la altura de la ventana */
+}
+
+.logoDeepRock {  
+  height: 40vh;
+  width: 19vw;
+  background-image: url(../public/Deep_Rock_Galactic_Logo.webp);
+  background-size: auto 40vh; /* Ajusta automáticamente el ancho al de la imagen */
+  background-repeat: no-repeat;
+  
+  animation: spin 15s linear infinite;
 }
